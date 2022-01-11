@@ -4,6 +4,7 @@
   "description": "projeto escola imagineon",
   "main": "src/index.html",
   "scripts": {
+    "start": "npx liver-server src/ ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
