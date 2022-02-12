@@ -4,10 +4,9 @@
   "description": "projeto escola imagineon",
   "main": "src/index.html",
   "scripts": {
-    "start": "npx liver-server src,index.html/ ",
+    "start": "npx live-server src/ ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcelobo213/studion.git"
@@ -24,6 +23,6 @@
   },
   "homepage": "https://github.com/marcelobo213/studion#readme",
   "devDependencies": {
-    "live-server": "^1.2.1"
+   "live-server": "^1.2.1"
   }
 }

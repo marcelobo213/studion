@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Sudion</title>
 </head>
@@ -36,13 +38,40 @@
       </div>
     </nav>
     <header>
-        <div id="slider">
+        <div class="slider">
             <div class="slide">
                 <img class="slide__background-image" src="./images/banner.jpg" alt="studion banner">
                 <div class="slide__copy">
+                    <div class="slider_copy_container">
                     <h6><span class="copy--primary ">próximo evento</span>- dia 25 de setembro ás 19h</h6>
                     <h2><span class="copy--primary">Creative</span>Minds</h2>
                     <button class="btn btn--slide">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                  <img class="slide__background-image" src="./images/banner2.jpg" alt="studion banner">
+                    <div class="slide__copy">
+                        <div class="slider_copy_container">
+                           <h6><span class="copy--primary ">próximo evento</span>- dia 25 de setembro ás 19h</h6>
+                           <h2><span class="copy--primary">FEST</span>FORWARD</h2>
+                          <button class="btn btn--slide">Saiba Mais</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                   <img class="slide__background-image" src="./images/banner3.jpg" alt="studion banner">
+                   <div class="slide__copy">
+                        <div class="slider_copy_container">
+                           <h6><span class="copy--primary ">próximo evento</span>- dia 25 de setembro ás 19h</h6>
+                           <h2><span class="copy--primary">SHOW</span>EVENT</h2>
+                           <button class="btn btn--slide">Saiba Mais</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -51,21 +80,21 @@
         <section class="counter">
             <ul class="container counter_container">
                 <li>
-                    <h3>+ de 500 
+                    <h3>+ de <span class="counter__number">500</span> 
                         <small>
                             eventos realizados
                         </small>
                     </h3>
                 </li>
                 <li>
-                    <h3>+ de 1000.000.00  
+                    <h3>+ de <span class="counter__number">1000.000</span>
                         <small>
                             de ingressos vendidos
                         </small>
                     </h3>
                 </li>
                 <li>
-                    <h3>+ de 300 
+                    <h3>+ de <span class="counter__number">300</span> 
                         <small>
                             empresas atendidas
                         </small>
@@ -140,7 +169,12 @@
             <small>Studi<span class="copy--primary">ON - </span>todos os direitos reservados.</small>
         </p>
     </footer>
-
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="http://ciromattia.github.io/jquery.counterup/jquery.counterup.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
